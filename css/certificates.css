@@ -1,0 +1,210 @@
+@import 'spc.css';
+
+:root{
+        --dark:#2B2B2B;
+        --red :#BE1E2D;
+        --white:#FFFFFF;
+        --letters:#E0E1DD;
+        }
+
+body{
+        
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background-color:#333333;
+}
+
+.image{
+    width: 420px;
+    height: 780px;   
+    overflow: hidden;
+    position: absolute; 
+    top: 49.5%;
+    left: 13%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.icon1{
+    width:20%;
+    height: 30% ;   
+    object-fit: cover;
+    object-position:center;  
+    overflow: hidden;
+    place-items:left; 
+    position: absolute; 
+    top: 32%;
+    left: 37%;
+    transform: translateX(-50%) translateY(-50%);   
+}
+
+.icon2{
+    width:20%;
+    height:30% ;   
+    object-fit: cover;
+    object-position:center;  
+    overflow: hidden;
+    place-items:left; 
+    position: absolute; 
+    top: 32%;
+    left: 59%;
+    transform: translateX(-50%) translateY(-50%);   
+}
+
+.icon3{
+    width:20%;
+    height: 30%;   
+    object-fit: cover;
+    object-position:center;  
+    overflow: hidden;
+    place-items:left; 
+    position: absolute; 
+    top: 32%;
+    left: 81%;
+    transform: translateX(-50%) translateY(-50%);   
+}    
+.icon6{
+    width:20%;
+    height: 30%;   
+    object-fit: cover;
+    object-position:center;  
+    overflow: hidden;
+    place-items:left; 
+    position: absolute; 
+    top: 65%;
+    left: 48%;
+    transform: translateX(-50%) translateY(-50%);
+     
+}    
+
+.icon5{
+    width:20%;
+    height: 30%;   
+    object-fit: cover;
+    object-position:center;  
+    overflow: hidden;
+    place-items:left; 
+    position: absolute; 
+    top: 65%;
+    left: 70%;
+    transform: translateX(-50%) translateY(-50%);   
+} 
+
+.icon7{
+    width: 70px;
+    height: 70px;   
+    object-fit: cover;
+    object-position:center;  
+    overflow: hidden;
+    place-items:left; 
+    position: absolute; 
+    top: 75%;
+    left: 92%;
+    transform: translateX(-50%) translateY(-50%);
+    transform: rotate(180deg);   
+}     
+.icon8{
+    width: 70px;
+    height: 70px;   
+    object-fit: cover;
+    object-position:center;  
+    overflow: hidden;
+    place-items:left; 
+    position: absolute; 
+    top: 75%;
+    left: 24%;
+    transform: translateX(-50%) translateY(-50%);
+    transform: rotate(0deg);   
+}         
+
+.pos1{  
+    color:black;
+    overflow: hidden;
+    place-items:left; 
+    position: absolute; 
+    font-size: 25px;
+    top: 30%;
+    left: 37%;
+    transform: translateX(-50%) translateY(-50%);   
+}    
+
+
+
+.pos2{  
+    color:white;
+    overflow: hidden;
+    place-items:left; 
+    position: absolute; 
+    font-size: 25px;
+    top: 30%;
+    left: 59%;
+    transform: translateX(-50%) translateY(-50%);   
+}  
+.pos3{  
+color:white;
+    overflow: hidden;
+    place-items:left; 
+    position: absolute; 
+    font-size: 25px;
+    top: 30%;
+    left: 81%;
+    transform: translateX(-50%) translateY(-50%);   
+}    
+.pos4{  
+    overflow: hidden;
+    color: white;
+    place-items:left; 
+    position: absolute; 
+    font-size: 25px;
+    top: 63%;
+    left: 48%;
+    transform: translateX(-50%) translateY(-50%);
+    
+}   
+.pos5{  
+    overflow: hidden;
+    color:white;
+    place-items:left; 
+    position: absolute; 
+    font-size: 25px;
+    top: 63%;
+    left: 70%;
+    transform: translateX(-50%) translateY(-50%);   
+}   
+
+.pos0{
+color: var(--letters);
+position: absolute;
+font-size: 50px;
+top: 0%;
+left: 43%;
+}
+
+h2{
+    position: absolute;
+    top: 41%;
+    font-size: 42px;
+    color:rgb(224, 224, 224);
+    left : 10%;
+}
+
+
+
+.box{
+    position: absolute;
+    padding:10;
+    font-size: 3rem;
+    top:49%;
+    left:13%;
+    background: rgba(44, 92, 224, 0);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+    transition:all .4s ease;
+    text-decoration: none;
+    color: white;
+}
+.box:hover{
+    background: transparent;
+    color: var(--white);
+}

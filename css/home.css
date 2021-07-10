@@ -1,0 +1,108 @@
+@import 'homebtn.css';
+:root{
+--dark:#2B2B2B;
+--red :#BE1E2D;
+--white:#FFFFFF;
+--letters:#E0E1DD;
+}
+
+
+
+
+.container{
+   place-items:center; 
+   position: absolute; 
+   top: 65%;
+   left: 50%;
+   transform: translateX(-50%) translateY(-50%);
+}
+
+header nav .container a{
+    color:var(--letter);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+body{
+    
+    font-family:'Cairo', sans-serif; 
+    background-color:var(--dark);
+    color:var(--letters);
+}
+
+h2{
+    font-size: 4rem;
+    font-family: 'Caveat', sans-serif;
+}
+
+.center
+{
+    width:100vw;
+    height:100vh;
+    display:grid;
+    place-items:center; 
+    position: absolute; 
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-65%);
+
+}
+
+.center2
+{
+    width:100vw;
+    height:100vh;
+    display:grid;
+    place-items:center; 
+    position: absolute; 
+    top: 65%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-87%);
+
+}
+
+
+h1
+{
+    font-size: 9vw;
+    text-transform: uppercase;
+    color: var(--dark);
+    position: relative;
+    -webkit-text-stroke: 0.1vw red;
+}
+
+h1::before
+{
+    content :"Portfolio";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:0%;
+    height: 100%;
+    color: red; 
+    -webkit-text-stroke: 0vw red;
+    border-right: 0px solid red;
+    animation: animate 6s linear infinite;
+    -webkit-animation: animate 6s linear infinite;
+    overflow: hidden;
+}
+
+@keyframes animate
+{
+        0%
+        {width:0;}
+        50%
+        {width:100%;}
+}
+
+
+body
+{
+    background-image: url("pic.jpg");
+    background-size:cover;
+}
+
+.position{
+    top: 65%;
+    left: 50%;
+}

@@ -1,0 +1,235 @@
+
+@import 'buttons.css';
+
+
+:root{
+        --dark:#2B2B2B;
+        --red :#BE1E2D;
+        --white:#FFFFFF;
+        --letters:#E0E1DD;
+        }
+/*..........................................*//*..........................................*//*..........................................*/
+
+body{
+        background-size:cover;
+        background-repeat: no-repeat;
+        margin:0;
+        padding:0;
+        font-family: sans-serif;
+        background-color:#333333;
+    }
+
+.image{
+        width: 570px;
+        height: 580px;   
+        object-fit: cover;
+        object-position: 10% 20%;  
+        overflow: hidden;
+        place-items:left; 
+        position: absolute; 
+        top: 13%;
+        left:-20%;
+        transform: translateX(-50%) translateY(-50%);
+        transform:rotate(136.5deg);
+        box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.493);
+    }
+/*..........................................*//*..........................................*//*..........................................*/
+.icon1{
+        width: 20%;
+        height: 30%;   
+        object-fit: cover;
+        object-position: center;  
+        overflow: hidden;
+        place-items: left; 
+        position: absolute; 
+        top: 38%;
+        left: 37%;
+        transform: translateX(-50%) translateY(-50%);   
+    
+    }
+    
+
+.icon2{
+        width:20%;
+        height:30% ;   
+        object-fit: cover;
+        object-position:center;  
+        overflow: hidden;
+        place-items:left; 
+        position: absolute; 
+        top: 38%;
+        left: 59%;
+        transform: translateX(-50%) translateY(-50%);   
+    }
+
+.icon3{
+        width:20%;
+        height: 30%;   
+        object-fit: cover;
+        object-position:center;  
+        overflow: hidden;
+        place-items:left; 
+        position: absolute; 
+        top: 38%;
+        left: 81%;
+        transform: translateX(-50%) translateY(-50%);   
+    }    
+.icon6{
+        width:20%;
+        height: 30%;   
+        object-fit: cover;
+        object-position:center;  
+        overflow: hidden;
+        place-items:left; 
+        position: absolute; 
+        top: 68%;
+        left: 48%;
+        transform: translateX(-50%) translateY(-50%);   
+    }    
+
+.icon5{
+        width:20%;
+        height: 30%;   
+        object-fit: cover;
+        object-position:center;  
+        overflow: hidden;
+        place-items:left; 
+        position: absolute; 
+        top: 68%;
+        left: 70%;
+        transform: translateX(-50%) translateY(-50%);   
+    } 
+
+.icon7{
+        width: 70px;
+        height: 70px;   
+        object-fit: cover;
+        object-position:center;  
+        overflow: hidden;
+        place-items:left; 
+        position: absolute; 
+        top: 75%;
+        left: 92%;
+        transform: translateX(-50%) translateY(-50%);
+        transform: rotate(180deg);   
+    }       
+
+.icon8{
+        width: 70px;
+        height: 70px;   
+        object-fit: cover;
+        object-position:center;  
+        overflow: hidden;
+        place-items:left; 
+        position: absolute; 
+        top: 75%;
+        left: 25%;
+        transform: translateX(-50%) translateY(-50%);
+        transform: rotate(0deg);   
+    }    
+/*..........................................*//*..........................................*//*..........................................*/  
+.pos1{  
+        color:black;
+        overflow: hidden;
+        place-items:left; 
+        position: absolute; 
+        font-size: 25px;
+        top: 36%;
+        left: 37%;
+        transform: translateX(-50%) translateY(-50%);   
+    }    
+
+
+
+.pos2{  
+    color:white;
+        overflow: hidden;
+        place-items:left; 
+        position: absolute; 
+        font-size: 25px;
+        top: 36%;
+        left: 59%;
+        transform: translateX(-50%) translateY(-50%);   
+    } 
+
+.pos3{  
+    color:white;
+        overflow: hidden;
+        place-items:left; 
+        position: absolute; 
+        font-size: 25px;
+        top: 36%;
+        left: 81%;
+        transform: translateX(-50%) translateY(-50%);   
+    }    
+
+.pos4{  
+        overflow: hidden;
+        color: white;
+        place-items:left; 
+        position: absolute; 
+        font-size: 25px;
+        top: 66%;
+        left: 48%;
+        transform: translateX(-50%) translateY(-50%);
+        
+    }   
+
+.pos5{  
+        overflow: hidden;
+        color:white;
+        place-items:left; 
+        position: absolute; 
+        font-size: 25px;
+        top: 66%;
+        left: 70%;
+        transform: translateX(-50%) translateY(-50%);   
+    }   
+
+.pos0{
+    color:var(--letters);
+    position: absolute;
+    font-size: 70px;
+    top:-1%;
+    left:48%;
+}
+
+.box{
+        position: absolute;
+        padding:10;
+        font-size: 3rem;
+        top:49%;
+        left:13%;
+        background: rgba(44, 92, 224, 0);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0);
+        transition:all .4s ease;
+        text-decoration: none;
+        color: white;
+    }
+.box:hover{
+        background: transparent;
+        color: var(--white);
+    }
+    
+
+
+/*..........................................................*//*..........................................*//*..........................................*/
+    .button1{
+        padding : 220px 90px;
+        
+        font-weight: 500;
+        border: 1px solid transparent;
+        box-shadow:0px 10px 10px black;
+        outline: none;
+        margin : 0.2rem;
+        transition:all 0.2s ease;
+              
+    }
+    
+    .button1-prime{
+        background:#202020;
+    }
+    
+    .button1-prime:hover{
+        color:rgb(149, 187, 99);
+    }

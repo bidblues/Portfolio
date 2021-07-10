@@ -1,0 +1,74 @@
+@import 'buttons.css';
+@import 'spc.css';
+
+:root{
+        --dark:#2B2B2B;
+        --red :#BE1E2D;
+        --white:#FFFFFF;
+        --letters:#E0E1DD;
+        }
+        
+        
+
+.position{
+        width:100vw;
+        height:100vh;
+        display:grid;
+        place-items:center; 
+        position: absolute; 
+        top: 65%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-65%);
+}
+
+.pos{
+        height: 870px;
+        weight 100px;
+        position: absolute;
+        top: -6%;
+        left: -3%;
+}
+body{
+        
+        /*background-image: url("Ass 1 (1).png");
+        background-size:550px;*/
+        background-repeat: no-repeat;
+        background-color:rgb(2, 1, 1);         
+    }
+
+h1{
+        font-family: "Cairo" ;
+        color:var(--letters);
+        position:absolute;
+        top: 30%;
+        left: 35%;
+        right:10%  
+}
+
+.text{
+        display: flex;
+        font-family: "Cairo" ;
+        color:var(--letters);
+        font-size: 1vw;
+        text-align: justify;   
+        position:absolute;
+        top: 47%;
+        left: 35%;
+        right:10%
+} 
+
+.container{
+        place-items: center;
+        position: absolute; 
+        top: 10%;
+        left: 25%;
+        
+     }
+
+
+nav .container a{
+        text-align: left;
+        color:var(--letters);
+        text-decoration: none;
+        font-weight: bold;
+    }

@@ -1,0 +1,20 @@
+.buttonspc{
+    
+    padding : 0.5rem 2.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border: 1px solid transparent;
+    outline: none;
+    margin : 0.2rem;
+    text-transform: uppercase;
+    transition:all .3s ease;
+    box-shadow:0 0 0.4rem rgb(252, 4, 4);
+    
+    
+}
+
+.buttonspc-prime{
+    
+    background:transparent;
+   
+}
