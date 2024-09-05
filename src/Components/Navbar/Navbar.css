@@ -104,13 +104,6 @@
         gap: 20px;
 
     }
-    .imgcontrol{
-        <img src={theme_pattern} alt="" />
-
-    }
-
     
-
-
 }
 
