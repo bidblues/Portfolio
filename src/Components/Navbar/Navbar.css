@@ -56,6 +56,11 @@
 .nav-mob-close{
     display: none;
 }
+.nav-mob-open{
+    display: none;
+}
+
+
 
 @media(max-width:768px){
     .navbar{
