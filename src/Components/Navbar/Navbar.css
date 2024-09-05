@@ -152,8 +152,9 @@
     }
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
     .imgcontrol {
-        max-width: 15rem; /* Adjust the max-width for mobile devices */
+        max-width: 15rem; 
+
     }
-}
+} */
