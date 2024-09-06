@@ -89,12 +89,28 @@
     
 }
 
-
-@media(max-width:1438px){
+@media(min-width: 768px) and (max-width: 1399px){
+    
     .services{
-        align-items: start;
+        align-items: center;
         gap: 70px;
-        margin: 20px 70px;   
+        margin: 10px 40px;   
+    }
+
+    .services-container{
+        grid-template-columns: 1fr 1fr ;
+        gap: 30px;
+    }
+}
+
+    
+ 
+
+@media(max-width:768px){
+    .services{
+        align-items: center;
+        gap: 70px;
+        margin: 10px 40px;   
     }
 
     .services-title h1{
@@ -104,7 +120,7 @@
 
     .services-title img {
         width: 130px;
-        margin-right: -20px;
+        margin-right: 3px;
     }
 
     .services-format{
@@ -130,10 +146,8 @@
     }
 
     .services-container{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 30px;
     }
-
-
-    
 }
+
