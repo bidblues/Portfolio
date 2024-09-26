@@ -11,7 +11,10 @@
     height: auto;  /* Keeps the aspect ratio */
 
 }
-
+.hero-resume a {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Use the parent element's color */
+  }
 .hero h1 {
     text-align: center;
     width: 70%;

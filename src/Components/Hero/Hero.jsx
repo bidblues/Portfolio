@@ -13,7 +13,9 @@ const Hero = () => {
       <AnchorLink href='#contact' className='anchor-link'> 
         <div className="hero-connect">Connect with me</div> 
       </AnchorLink> 
-        <div className="hero-resume">My Resume</div>
+        <div className="hero-resume">
+          <a href="src/assets/Resume.pdf" target="_blank" rel="noopener noreferrer">My Resume</a>
+          </div>
       </div>
     </div>
   )

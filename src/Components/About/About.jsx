@@ -17,13 +17,19 @@ const About = () => {
             </div>
             <div className="about-right">
                 <div className="about-para">
-                    <p>Welcome to our website! We are a passionate team dedicated to [describe your field, e.g., web development, design, technology, etc.]. Our mission is to deliver exceptional quality and innovative solutions tailored to meet the unique needs of our clients. With years of experience and a commitment to staying at the forefront of industry trends, we pride ourselves on our ability to transform ideas into reality. Whether you’re looking for [specific services, e.g., bespoke web applications, creative design solutions, or cutting-edge technology development], we are here to help you succeed. Explore our portfolio, learn more about what we do, and let's create something amazing together!</p>
+                    <p>Results-driven Network Administrator with over 3 years of experience in managing and securing IT environments.
+Proficient in systems configuration, network administration, and troubleshooting across both Windows and Linux
+Systems. Skilled in maintaining network infrastructures, including routing, switching, and firewall configurations.
+Committed to optimizing system performance and implementing robust security protocols. Strong communicator
+with a collaborative approach to resolving technical issues and supporting cross-functional teams.</p>
                 </div>
                 <div className="about-skills">
                     <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"70%"}}/></div>
-                    <div className="about-skill"><p>Java</p><hr style={{width:"40%"}}/></div>
-                    <div className="about-skill"><p>React</p><hr style={{width:"65%"}}/></div>
+                    <div className="about-skill"><p>React JS</p><hr style={{width:"40%"}}/></div>
+                    <div className="about-skill"><p>Networking</p><hr style={{width:"65%"}}/></div>
                     <div className="about-skill"><p>C++</p><hr style={{width:"35%"}}/></div>
+                    <div className="about-skill"><p>Linux/Windows</p><hr style={{width:"75%"}}/></div>
+
       
                 </div>
             </div>
