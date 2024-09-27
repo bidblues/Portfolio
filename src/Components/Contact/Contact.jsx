@@ -51,6 +51,8 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
+
+            
             <form onSubmit={onSubmit} className="contact-right">
                 <label htmlFor=''>Your Name</label>
                 <input type="text" placeholder='Enter Your Name' name='Name' />

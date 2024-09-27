@@ -10,9 +10,6 @@ const Hero = () => {
       <h1><span>Hey, I am Bidyut Gogoi</span> </h1>
       <p>Life's all about making memories, and I’m glad I can share mine with you. Let's make this one count!</p>
       <div className="hero-action">
-      <AnchorLink href='#contact' className='anchor-link'> 
-        <div className="hero-connect">Connect with me</div> 
-      </AnchorLink> 
         <div className="hero-resume">
           <a href="src/assets/Resume.pdf" target="_blank" rel="noopener noreferrer">My Resume</a>
           </div>

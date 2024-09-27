@@ -1,72 +1,63 @@
 .footer{
-    margin: 50px 30px;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    background-color: rgb(85, 85, 85);
+    width: 100%;
 }
 
 .footer-top{
     display: flex;
     justify-content: center;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
+/* @keyframes logoMotion {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0); 
+    }
+} */
 
+@keyframes logoGrowShrink {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1); 
+    }
+    100% {
+        transform: scale(1); 
+    }
+}
 .foot-img{
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     border: 1px solid white;
     border-radius: 7px;
     padding: 7px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Adds shadow below the navbar */
-
-}
-
-.footer-top-left p{
-    font-size: 20px;
-    max-width: 500px;
-}
-
-.footer-top-right{
-    display: flex;
-    align-items: center;
-    gap: 35px;
-    
-    
-}
-
-.footer-email-input{
-    display: flex;
-    gap: 30px;
-    padding: 20px 30px;
-    border-radius: 50px;
-    background: #32323b;
-    padding-right: 80px;
-    
-}
-
-.footer-email-input input{
-    outline: none;
-    border: none;
-    background: transparent;
-    color: #a0a0a0;
-    font-family: outfit;
-    font-size: 18px;
-    
-}
-
-.footer-subscribe{
-    font-size: 20px;
-    padding: 22px 50px;
-    border-radius: 50px;
-    background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
-    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Adds shadow below the navbar */
     transition: 0.3s;
+    animation: logoGrowShrink 2s ease-in-out infinite;
 
 }
+
+
+
+
 
 .footer-bottom{
+    margin-top: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     font-size: 18px;
+    color: black;
+    
 }
 
 .footer-bottom-right{

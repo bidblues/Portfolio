@@ -4,7 +4,8 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 80px 170px;
+    width: 100%;
+    margin-bottom: 40px;
 }
 
 .contact-title{
@@ -112,9 +113,7 @@
 
 .contact-submit{
     border: none;
-    color: white;
     border-radius: 20px;
-    background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 100%);
     font-size: 22px;
     padding: 20px 60px;
     margin-bottom: 50px;
@@ -125,6 +124,9 @@
 .contact-submit:hover{
     transform: scale(1.1);
     transition: 0.3s;
+        background: linear-gradient(45deg, #054599, #003150);
+        color: white;
+
 }
 
 

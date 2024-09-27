@@ -21,10 +21,12 @@
     background-color: #2b2b2b; /* New background color when scrolled */
 }
 
+
+
+
 /* Image control styles */
 .imgcontrol {
     width: 100px; 
-    max-width: 10rem;
     height: 90px;
     padding: 5px;
     border: 1px solid rgb(124, 124, 124);

@@ -34,7 +34,9 @@ const Navbar = () => {
 
     return (
         <div className={`navbar ${scrolled ? 'scrolled' : ''}`}>
+            <a href="./src/index.html">
             <img src={logo} alt="" className='imgcontrol' />
+            </a>
             <img src={menu_open} onClick={openMenu} alt="" className='nav-mob-open' />
             <ul ref={menuRef} className="nav-menu">
                 <img src={menu_close} onClick={closeMenu} alt="" className="nav-mob-close" />
