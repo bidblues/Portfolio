@@ -90,13 +90,17 @@
 @media(min-width: 768px) and (max-width: 1399px){
     .footer{
         margin: 50px 70px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
     }
 
-    .footer-top-left p{
-        text-align: justify;
-        max-width: 300px;
-        font-size: 15px;
+    .footer-top{
+        display: flex;
+        justify-content: center;
     }
+
+  
 }
 
 
@@ -105,33 +109,6 @@
         margin: 50px 40px;
     }
 
-    .footer-top{
-        flex-direction: column;
-        gap: 50px;
-    }
-    .footer-top-left p{
-        text-align: justify;
-    }
-
-    .footer-top-right{
-        flex-direction: column;
-        padding-left: 10px;
-    }
-
-    .footer-email-input{
-        width: 80%;
-        height: 2vh;
-    }
-
-    .footer-top-left p{
-        font-size: 15px;
-    }
-
-    .footer-subscribe{
-        width: 80%;
-        height: 2vh;
-        align-items: center; 
-    }
 
     .footer-bottom{
         display: flex;
