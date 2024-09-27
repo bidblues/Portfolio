@@ -3,6 +3,7 @@
     align-items: center;
     flex-direction: column;
     gap: 35px;
+    margin-top: 150px;
 }
 
 .hero img{
@@ -78,7 +79,7 @@
 
 @media(max-width:768px){
     .hero img{
-        margin-top:120px;
+        margin-top:50px;
         width: 260px;
     }
     .hero h1{

@@ -18,10 +18,10 @@ const About = () => {
             <div className="about-right">
                 <div className="about-para">
                     <p>Results-driven Network Administrator with over 3 years of experience in managing and securing IT environments.
-Proficient in systems configuration, network administration, and troubleshooting across both Windows and Linux
-Systems. Skilled in maintaining network infrastructures, including routing, switching, and firewall configurations.
-Committed to optimizing system performance and implementing robust security protocols. Strong communicator
-with a collaborative approach to resolving technical issues and supporting cross-functional teams.</p>
+                        Proficient in systems configuration, network administration, and troubleshooting across both Windows and Linux
+                        Systems. Skilled in maintaining network infrastructures, including routing, switching, and firewall configurations.
+                        Committed to optimizing system performance and implementing robust security protocols. Strong communicator
+                        with a collaborative approach to resolving technical issues and supporting cross-functional teams.</p>
                 </div>
                 <div className="about-skills">
                     <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"70%"}}/></div>
